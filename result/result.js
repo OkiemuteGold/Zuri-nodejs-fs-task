@@ -15,14 +15,3 @@ fetch(jsonPlaceholderUrl, settings)
             console.log(data);
         });
     });
-    // .then((data) => {
-    //     let postsPath = path.join(__dirname, "posts.json");
-    //     fs.writeFile(postsPath, JSON.stringify(data, null, 2), function () {
-    //         console.log("Replaced!");
-    //         console.log(data);
-    //     });
-    // })
-    // .catch((err) => {
-    //     console.log(err);
-    // });
-
